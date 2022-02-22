@@ -36,8 +36,8 @@ const DetailScreen = ({ route }) => {
             ref={video}
             style={styles.video}
             source={{
-              uri: "http://192.168.2.101:8001/video",
-              //   uri: "http://d23dyxeqlo5psv.cloudfront.net/big_buck_bunny.mp4",
+              // uri: "http://192.168.2.110:8001/video",
+                uri: "http://d23dyxeqlo5psv.cloudfront.net/big_buck_bunny.mp4",
             }}
             useNativeControls
             resizeMode="contain"
