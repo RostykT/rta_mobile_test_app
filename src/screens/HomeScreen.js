@@ -16,7 +16,7 @@ const HomeScreen = ({ navigation }) => {
     const fetchData = async () => {
       const result = await axios({
         method: "get",
-        url: "http://192.168.2.110:8001/films",
+        url: "http://3.8.204.112/api/films",
       });
       setFilms(result.data);
     };

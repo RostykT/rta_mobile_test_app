@@ -31,13 +31,13 @@ const DetailScreen = ({ route }) => {
           <Text> Year: {item.Year}</Text>
           <Text> Directed by: {item.Directed_by}</Text>
           <Text> About Movie: {item.Description}</Text>
-          {/* <Video source={{ uri: 'http://192.168.1.102:8001/video'}}/> */}
+          {/* <Video source={{ uri: 'http://http://3.8.204.112/api/video'}}/> */}
           <Video
             ref={video}
             style={styles.video}
             source={{
-              // uri: "http://192.168.2.110:8001/video",
-                uri: "http://d23dyxeqlo5psv.cloudfront.net/big_buck_bunny.mp4",
+              // uri: "http://http://3.8.204.112/api/video",
+              uri: "http://d23dyxeqlo5psv.cloudfront.net/big_buck_bunny.mp4",
             }}
             useNativeControls
             resizeMode="contain"
